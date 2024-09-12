@@ -6,7 +6,7 @@ from django.db import models
 
 class Organizador(models.Model):
     nombre_org= models.CharField(max_length=150)
-    #email_org= models.EmailField()
+
 
     def __str__(self) -> str:
         return self.nombre_org
